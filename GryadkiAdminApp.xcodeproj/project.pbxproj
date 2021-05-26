@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710934A6265E4A03000854D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934A5265E4A03000854D9 /* AppDelegate.swift */; };
+		710934A8265E4A03000854D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934A7265E4A03000854D9 /* SceneDelegate.swift */; };
+		710934AA265E4A03000854D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934A9265E4A03000854D9 /* ViewController.swift */; };
+		710934AD265E4A03000854D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710934AB265E4A03000854D9 /* Main.storyboard */; };
+		710934AF265E4A05000854D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710934AE265E4A05000854D9 /* Assets.xcassets */; };
+		710934B2265E4A05000854D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710934B0265E4A05000854D9 /* LaunchScreen.storyboard */; };
+		710934BD265E4A08000854D9 /* GryadkiAdminAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934BC265E4A08000854D9 /* GryadkiAdminAppTests.swift */; };
+		710934C8265E4A08000854D9 /* GryadkiAdminAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934C7265E4A08000854D9 /* GryadkiAdminAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		710934B9265E4A08000854D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7109349A265E4A03000854D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710934A1265E4A03000854D9;
+			remoteInfo = GryadkiAdminApp;
+		};
+		710934C4265E4A08000854D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7109349A265E4A03000854D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710934A1265E4A03000854D9;
+			remoteInfo = GryadkiAdminApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		710934A2265E4A03000854D9 /* GryadkiAdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GryadkiAdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		710934A5265E4A03000854D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		710934A7265E4A03000854D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		710934A9265E4A03000854D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		710934AC265E4A03000854D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710934AE265E4A05000854D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710934B1265E4A05000854D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710934B3265E4A05000854D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710934B8265E4A08000854D9 /* GryadkiAdminAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GryadkiAdminAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		710934BC265E4A08000854D9 /* GryadkiAdminAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryadkiAdminAppTests.swift; sourceTree = "<group>"; };
+		710934BE265E4A08000854D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710934C3265E4A08000854D9 /* GryadkiAdminAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GryadkiAdminAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		710934C7265E4A08000854D9 /* GryadkiAdminAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryadkiAdminAppUITests.swift; sourceTree = "<group>"; };
+		710934C9265E4A08000854D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7109349F265E4A03000854D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710934B5265E4A08000854D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710934C0265E4A08000854D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71093499265E4A03000854D9 = {
+			isa = PBXGroup;
+			children = (
+				710934A4265E4A03000854D9 /* GryadkiAdminApp */,
+				710934BB265E4A08000854D9 /* GryadkiAdminAppTests */,
+				710934C6265E4A08000854D9 /* GryadkiAdminAppUITests */,
+				710934A3265E4A03000854D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710934A3265E4A03000854D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710934A2265E4A03000854D9 /* GryadkiAdminApp.app */,
+				710934B8265E4A08000854D9 /* GryadkiAdminAppTests.xctest */,
+				710934C3265E4A08000854D9 /* GryadkiAdminAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710934A4265E4A03000854D9 /* GryadkiAdminApp */ = {
+			isa = PBXGroup;
+			children = (
+				710934A5265E4A03000854D9 /* AppDelegate.swift */,
+				710934A7265E4A03000854D9 /* SceneDelegate.swift */,
+				710934A9265E4A03000854D9 /* ViewController.swift */,
+				710934AB265E4A03000854D9 /* Main.storyboard */,
+				710934AE265E4A05000854D9 /* Assets.xcassets */,
+				710934B0265E4A05000854D9 /* LaunchScreen.storyboard */,
+				710934B3265E4A05000854D9 /* Info.plist */,
+			);
+			path = GryadkiAdminApp;
+			sourceTree = "<group>";
+		};
+		710934BB265E4A08000854D9 /* GryadkiAdminAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				710934BC265E4A08000854D9 /* GryadkiAdminAppTests.swift */,
+				710934BE265E4A08000854D9 /* Info.plist */,
+			);
+			path = GryadkiAdminAppTests;
+			sourceTree = "<group>";
+		};
+		710934C6265E4A08000854D9 /* GryadkiAdminAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				710934C7265E4A08000854D9 /* GryadkiAdminAppUITests.swift */,
+				710934C9265E4A08000854D9 /* Info.plist */,
+			);
+			path = GryadkiAdminAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710934A1265E4A03000854D9 /* GryadkiAdminApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710934CC265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminApp" */;
+			buildPhases = (
+				7109349E265E4A03000854D9 /* Sources */,
+				7109349F265E4A03000854D9 /* Frameworks */,
+				710934A0265E4A03000854D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GryadkiAdminApp;
+			productName = GryadkiAdminApp;
+			productReference = 710934A2265E4A03000854D9 /* GryadkiAdminApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		710934B7265E4A08000854D9 /* GryadkiAdminAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710934CF265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminAppTests" */;
+			buildPhases = (
+				710934B4265E4A08000854D9 /* Sources */,
+				710934B5265E4A08000854D9 /* Frameworks */,
+				710934B6265E4A08000854D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710934BA265E4A08000854D9 /* PBXTargetDependency */,
+			);
+			name = GryadkiAdminAppTests;
+			productName = GryadkiAdminAppTests;
+			productReference = 710934B8265E4A08000854D9 /* GryadkiAdminAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		710934C2265E4A08000854D9 /* GryadkiAdminAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710934D2265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminAppUITests" */;
+			buildPhases = (
+				710934BF265E4A08000854D9 /* Sources */,
+				710934C0265E4A08000854D9 /* Frameworks */,
+				710934C1265E4A08000854D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710934C5265E4A08000854D9 /* PBXTargetDependency */,
+			);
+			name = GryadkiAdminAppUITests;
+			productName = GryadkiAdminAppUITests;
+			productReference = 710934C3265E4A08000854D9 /* GryadkiAdminAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7109349A265E4A03000854D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					710934A1265E4A03000854D9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					710934B7265E4A08000854D9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 710934A1265E4A03000854D9;
+					};
+					710934C2265E4A08000854D9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 710934A1265E4A03000854D9;
+					};
+				};
+			};
+			buildConfigurationList = 7109349D265E4A03000854D9 /* Build configuration list for PBXProject "GryadkiAdminApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71093499265E4A03000854D9;
+			productRefGroup = 710934A3265E4A03000854D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710934A1265E4A03000854D9 /* GryadkiAdminApp */,
+				710934B7265E4A08000854D9 /* GryadkiAdminAppTests */,
+				710934C2265E4A08000854D9 /* GryadkiAdminAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710934A0265E4A03000854D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710934B2265E4A05000854D9 /* LaunchScreen.storyboard in Resources */,
+				710934AF265E4A05000854D9 /* Assets.xcassets in Resources */,
+				710934AD265E4A03000854D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710934B6265E4A08000854D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710934C1265E4A08000854D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7109349E265E4A03000854D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710934AA265E4A03000854D9 /* ViewController.swift in Sources */,
+				710934A6265E4A03000854D9 /* AppDelegate.swift in Sources */,
+				710934A8265E4A03000854D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710934B4265E4A08000854D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710934BD265E4A08000854D9 /* GryadkiAdminAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710934BF265E4A08000854D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710934C8265E4A08000854D9 /* GryadkiAdminAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		710934BA265E4A08000854D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710934A1265E4A03000854D9 /* GryadkiAdminApp */;
+			targetProxy = 710934B9265E4A08000854D9 /* PBXContainerItemProxy */;
+		};
+		710934C5265E4A08000854D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710934A1265E4A03000854D9 /* GryadkiAdminApp */;
+			targetProxy = 710934C4265E4A08000854D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		710934AB265E4A03000854D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710934AC265E4A03000854D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710934B0265E4A05000854D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710934B1265E4A05000854D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710934CA265E4A08000854D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		710934CB265E4A08000854D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710934CD265E4A08000854D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GryadkiAdminApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petProject.GryadkiAdminApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		710934CE265E4A08000854D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GryadkiAdminApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petProject.GryadkiAdminApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		710934D0265E4A08000854D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GryadkiAdminAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petProject.GryadkiAdminAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GryadkiAdminApp.app/GryadkiAdminApp";
+			};
+			name = Debug;
+		};
+		710934D1265E4A08000854D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GryadkiAdminAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petProject.GryadkiAdminAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GryadkiAdminApp.app/GryadkiAdminApp";
+			};
+			name = Release;
+		};
+		710934D3265E4A08000854D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GryadkiAdminAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petProject.GryadkiAdminAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GryadkiAdminApp;
+			};
+			name = Debug;
+		};
+		710934D4265E4A08000854D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GryadkiAdminAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = petProject.GryadkiAdminAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GryadkiAdminApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7109349D265E4A03000854D9 /* Build configuration list for PBXProject "GryadkiAdminApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710934CA265E4A08000854D9 /* Debug */,
+				710934CB265E4A08000854D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710934CC265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710934CD265E4A08000854D9 /* Debug */,
+				710934CE265E4A08000854D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710934CF265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710934D0265E4A08000854D9 /* Debug */,
+				710934D1265E4A08000854D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710934D2265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710934D3265E4A08000854D9 /* Debug */,
+				710934D4265E4A08000854D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7109349A265E4A03000854D9 /* Project object */;
+}
