@@ -1,0 +1,6 @@
+framework module Pods_GryadkiAdminAppTests {
+  umbrella header "Pods-GryadkiAdminAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

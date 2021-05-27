@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F7F745AB98630C7675A852F /* Pods_GryadkiAdminAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CA2D4E1B47D3E8374C416F /* Pods_GryadkiAdminAppTests.framework */; };
+		5F3258CE6BF0FFAD22182929 /* Pods_GryadkiAdminApp_GryadkiAdminAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD47DFFEBF67DE47FBAD7FC /* Pods_GryadkiAdminApp_GryadkiAdminAppUITests.framework */; };
 		710934A6265E4A03000854D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934A5265E4A03000854D9 /* AppDelegate.swift */; };
-		710934A8265E4A03000854D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934A7265E4A03000854D9 /* SceneDelegate.swift */; };
 		710934AA265E4A03000854D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934A9265E4A03000854D9 /* ViewController.swift */; };
-		710934AD265E4A03000854D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710934AB265E4A03000854D9 /* Main.storyboard */; };
 		710934AF265E4A05000854D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710934AE265E4A05000854D9 /* Assets.xcassets */; };
 		710934B2265E4A05000854D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710934B0265E4A05000854D9 /* LaunchScreen.storyboard */; };
 		710934BD265E4A08000854D9 /* GryadkiAdminAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934BC265E4A08000854D9 /* GryadkiAdminAppTests.swift */; };
 		710934C8265E4A08000854D9 /* GryadkiAdminAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934C7265E4A08000854D9 /* GryadkiAdminAppUITests.swift */; };
+		710934DC265E4A79000854D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934DB265E4A79000854D9 /* LoginViewController.swift */; };
+		710934EF265E4B64000854D9 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934EE265E4B64000854D9 /* extensions.swift */; };
+		710934FA265E503C000854D9 /* SMSConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934F9265E503C000854D9 /* SMSConfirmationViewController.swift */; };
+		710934FF265E5230000854D9 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710934FE265E5230000854D9 /* NotificationsViewController.swift */; };
+		F0DC077FCC1E55A3D2EC52AA /* Pods_GryadkiAdminApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFA7B83435342571376B3A6 /* Pods_GryadkiAdminApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CA2D4E1B47D3E8374C416F /* Pods_GryadkiAdminAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GryadkiAdminAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD47DFFEBF67DE47FBAD7FC /* Pods_GryadkiAdminApp_GryadkiAdminAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GryadkiAdminApp_GryadkiAdminAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1F125F96FE0802035CF3E0 /* Pods-GryadkiAdminApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GryadkiAdminApp.release.xcconfig"; path = "Target Support Files/Pods-GryadkiAdminApp/Pods-GryadkiAdminApp.release.xcconfig"; sourceTree = "<group>"; };
 		710934A2265E4A03000854D9 /* GryadkiAdminApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GryadkiAdminApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		710934A5265E4A03000854D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		710934A7265E4A03000854D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		710934A9265E4A03000854D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		710934AC265E4A03000854D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		710934AE265E4A05000854D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		710934B1265E4A05000854D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		710934B3265E4A05000854D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,16 @@
 		710934C3265E4A08000854D9 /* GryadkiAdminAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GryadkiAdminAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710934C7265E4A08000854D9 /* GryadkiAdminAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GryadkiAdminAppUITests.swift; sourceTree = "<group>"; };
 		710934C9265E4A08000854D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710934DB265E4A79000854D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		710934EE265E4B64000854D9 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		710934F9265E503C000854D9 /* SMSConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSConfirmationViewController.swift; sourceTree = "<group>"; };
+		710934FE265E5230000854D9 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		76B954F3407FF3AF51D8BAFE /* Pods-GryadkiAdminAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GryadkiAdminAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GryadkiAdminAppTests/Pods-GryadkiAdminAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A8E8D6B8C653334DF854B46 /* Pods-GryadkiAdminAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GryadkiAdminAppTests.release.xcconfig"; path = "Target Support Files/Pods-GryadkiAdminAppTests/Pods-GryadkiAdminAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AFA7B83435342571376B3A6 /* Pods_GryadkiAdminApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GryadkiAdminApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3E976A0F1F4B122C15D1E2 /* Pods-GryadkiAdminApp-GryadkiAdminAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GryadkiAdminApp-GryadkiAdminAppUITests.release.xcconfig"; path = "Target Support Files/Pods-GryadkiAdminApp-GryadkiAdminAppUITests/Pods-GryadkiAdminApp-GryadkiAdminAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD4356D9CA2D5A60E48F9FB /* Pods-GryadkiAdminApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GryadkiAdminApp.debug.xcconfig"; path = "Target Support Files/Pods-GryadkiAdminApp/Pods-GryadkiAdminApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F81F2180DA90CA159F25AAAE /* Pods-GryadkiAdminApp-GryadkiAdminAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GryadkiAdminApp-GryadkiAdminAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-GryadkiAdminApp-GryadkiAdminAppUITests/Pods-GryadkiAdminApp-GryadkiAdminAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DC077FCC1E55A3D2EC52AA /* Pods_GryadkiAdminApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7F745AB98630C7675A852F /* Pods_GryadkiAdminAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3258CE6BF0FFAD22182929 /* Pods_GryadkiAdminApp_GryadkiAdminAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45D5D2D3EAE43EF8174B08DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA7B83435342571376B3A6 /* Pods_GryadkiAdminApp.framework */,
+				3DD47DFFEBF67DE47FBAD7FC /* Pods_GryadkiAdminApp_GryadkiAdminAppUITests.framework */,
+				04CA2D4E1B47D3E8374C416F /* Pods_GryadkiAdminAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		71093499265E4A03000854D9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				710934BB265E4A08000854D9 /* GryadkiAdminAppTests */,
 				710934C6265E4A08000854D9 /* GryadkiAdminAppUITests */,
 				710934A3265E4A03000854D9 /* Products */,
+				DF69D5875AD0842F1580EBA7 /* Pods */,
+				45D5D2D3EAE43EF8174B08DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +131,11 @@
 			isa = PBXGroup;
 			children = (
 				710934A5265E4A03000854D9 /* AppDelegate.swift */,
-				710934A7265E4A03000854D9 /* SceneDelegate.swift */,
 				710934A9265E4A03000854D9 /* ViewController.swift */,
-				710934AB265E4A03000854D9 /* Main.storyboard */,
+				710934FE265E5230000854D9 /* NotificationsViewController.swift */,
+				710934DB265E4A79000854D9 /* LoginViewController.swift */,
+				710934EE265E4B64000854D9 /* extensions.swift */,
+				710934F9265E503C000854D9 /* SMSConfirmationViewController.swift */,
 				710934AE265E4A05000854D9 /* Assets.xcassets */,
 				710934B0265E4A05000854D9 /* LaunchScreen.storyboard */,
 				710934B3265E4A05000854D9 /* Info.plist */,
@@ -128,6 +161,19 @@
 			path = GryadkiAdminAppUITests;
 			sourceTree = "<group>";
 		};
+		DF69D5875AD0842F1580EBA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FD4356D9CA2D5A60E48F9FB /* Pods-GryadkiAdminApp.debug.xcconfig */,
+				5A1F125F96FE0802035CF3E0 /* Pods-GryadkiAdminApp.release.xcconfig */,
+				F81F2180DA90CA159F25AAAE /* Pods-GryadkiAdminApp-GryadkiAdminAppUITests.debug.xcconfig */,
+				8A3E976A0F1F4B122C15D1E2 /* Pods-GryadkiAdminApp-GryadkiAdminAppUITests.release.xcconfig */,
+				76B954F3407FF3AF51D8BAFE /* Pods-GryadkiAdminAppTests.debug.xcconfig */,
+				7A8E8D6B8C653334DF854B46 /* Pods-GryadkiAdminAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710934CC265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminApp" */;
 			buildPhases = (
+				E5CD64E77FD25E9C5BB7E0D2 /* [CP] Check Pods Manifest.lock */,
 				7109349E265E4A03000854D9 /* Sources */,
 				7109349F265E4A03000854D9 /* Frameworks */,
 				710934A0265E4A03000854D9 /* Resources */,
+				6C72DDCF8FE33CACF55828A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710934CF265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminAppTests" */;
 			buildPhases = (
+				436C9F6B13FE58118110FB99 /* [CP] Check Pods Manifest.lock */,
 				710934B4265E4A08000854D9 /* Sources */,
 				710934B5265E4A08000854D9 /* Frameworks */,
 				710934B6265E4A08000854D9 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710934D2265E4A08000854D9 /* Build configuration list for PBXNativeTarget "GryadkiAdminAppUITests" */;
 			buildPhases = (
+				855D8F8415A4E90473225514 /* [CP] Check Pods Manifest.lock */,
 				710934BF265E4A08000854D9 /* Sources */,
 				710934C0265E4A08000854D9 /* Frameworks */,
 				710934C1265E4A08000854D9 /* Resources */,
+				730B70986E99BB2DE334E908 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +284,6 @@
 			files = (
 				710934B2265E4A05000854D9 /* LaunchScreen.storyboard in Resources */,
 				710934AF265E4A05000854D9 /* Assets.xcassets in Resources */,
-				710934AD265E4A03000854D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +303,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		436C9F6B13FE58118110FB99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GryadkiAdminAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C72DDCF8FE33CACF55828A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GryadkiAdminApp/Pods-GryadkiAdminApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GryadkiAdminApp/Pods-GryadkiAdminApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GryadkiAdminApp/Pods-GryadkiAdminApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		730B70986E99BB2DE334E908 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GryadkiAdminApp-GryadkiAdminAppUITests/Pods-GryadkiAdminApp-GryadkiAdminAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GryadkiAdminApp-GryadkiAdminAppUITests/Pods-GryadkiAdminApp-GryadkiAdminAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GryadkiAdminApp-GryadkiAdminAppUITests/Pods-GryadkiAdminApp-GryadkiAdminAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855D8F8415A4E90473225514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GryadkiAdminApp-GryadkiAdminAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CD64E77FD25E9C5BB7E0D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GryadkiAdminApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7109349E265E4A03000854D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710934FA265E503C000854D9 /* SMSConfirmationViewController.swift in Sources */,
+				710934EF265E4B64000854D9 /* extensions.swift in Sources */,
+				710934DC265E4A79000854D9 /* LoginViewController.swift in Sources */,
+				710934FF265E5230000854D9 /* NotificationsViewController.swift in Sources */,
 				710934AA265E4A03000854D9 /* ViewController.swift in Sources */,
 				710934A6265E4A03000854D9 /* AppDelegate.swift in Sources */,
-				710934A8265E4A03000854D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +452,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		710934AB265E4A03000854D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				710934AC265E4A03000854D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		710934B0265E4A05000854D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +581,7 @@
 		};
 		710934CD265E4A08000854D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD4356D9CA2D5A60E48F9FB /* Pods-GryadkiAdminApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +600,7 @@
 		};
 		710934CE265E4A08000854D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1F125F96FE0802035CF3E0 /* Pods-GryadkiAdminApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +619,7 @@
 		};
 		710934D0265E4A08000854D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B954F3407FF3AF51D8BAFE /* Pods-GryadkiAdminAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +641,7 @@
 		};
 		710934D1265E4A08000854D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8E8D6B8C653334DF854B46 /* Pods-GryadkiAdminAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +663,7 @@
 		};
 		710934D3265E4A08000854D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81F2180DA90CA159F25AAAE /* Pods-GryadkiAdminApp-GryadkiAdminAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +683,7 @@
 		};
 		710934D4265E4A08000854D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3E976A0F1F4B122C15D1E2 /* Pods-GryadkiAdminApp-GryadkiAdminAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
